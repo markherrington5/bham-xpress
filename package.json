@@ -2,7 +2,7 @@
   "name": "bham-xpress",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://markherrington5.github.io/bham-xpress/",
+  "homepage": "https://github.com/markherrington5/bham-xpress",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
