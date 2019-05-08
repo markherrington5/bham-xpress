@@ -1,8 +1,8 @@
 {
   "name": "bham-xpress",
-  "homepage": "https://markherrington5.github.io/bham-xpress/run",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://markherrington5.github.io/bham-xpress/run",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
@@ -12,11 +12,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
